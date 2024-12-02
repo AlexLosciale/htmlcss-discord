@@ -150,15 +150,15 @@ h3{
 
 footer{
     background-color: #23272A;
-    height: 600px;
+    padding-bottom: 2%;
 }
 
 .container3{
     display: flex;
     background-color: #23272A;
-    height: 500px;
     padding: 5% 10% 0 10%;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .logo2{
@@ -177,6 +177,7 @@ footer{
     background-color: #23272A;
     border: 0;
     color: white;
+    margin-bottom: 10px;
 }
 
 .ul{
@@ -200,7 +201,7 @@ li{
 }
 
 hr{
-    width: 80%;
+    width: 81%;
     margin: 0 10% 0 10%;
     border-color: #7289DA;
 }
