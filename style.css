@@ -7,7 +7,7 @@
 header{
     background-image: url(./img/jumbo.png);
     background-size: cover;
-    height: 600px;
+    height: 550px;
 }
 
 .start{
@@ -42,7 +42,7 @@ header{
 
 .title{
     width: 50%;
-    margin: 5% 25% 5% 25%;
+    margin: 7% 25% 5% 25%;
     text-align: center;
     color: white;
     padding: 2% 0;
@@ -63,7 +63,6 @@ h1{
 
 main{
     display: flex;
-    border: 1px solid black;
     flex-direction: column;
 }
 
@@ -86,7 +85,7 @@ main{
 
 .test2{
     width: 500px;
-    border: 1px solid black;
+    height: 400px;
 }
 
 h2{
@@ -94,11 +93,16 @@ h2{
 }
 
 .sizep{
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 27px;
 }
 
 
 .two{
+    background-color: #F6F6F6;
+}
+
+.two img{
     background-color: #F6F6F6;
 }
 
@@ -107,68 +111,71 @@ h2{
 }
 
 .container2{
-    height: 600px;
-    border: 1px solid black;
-    padding: 1%;
+    padding: 5%;
     text-align: center;
 }
 
-.img2{
-    width: 800px;
-    height: 400px;
-    background-color: aqua;
+.four{
+    background-color: #F6F6F6;
 }
 
-.four{
-    background-color: darkorange;
+h3{
+    font-size: 25px;
+}
+
+.buttonMac{
+    margin: 3% 0 3% 0;
 }
 
 footer{
-    background-color: rgb(81, 73, 63);
+    background-color: #23272A;
     height: 600px;
-    border: 1px solid black;
 }
 
 .container3{
     display: flex;
-    background-color: rgb(81, 73, 63);
+    background-color: #23272A;
     height: 500px;
-    padding: 3%;
+    padding: 5% 10% 0 10%;
     justify-content: center;
-    padding: 2%;
 }
 
 .logo2{
     border: 1px solid black;
-    background-color: rgb(255, 0, 0);
     height: 300px;
     margin-right: 10px;
-    flex-grow: 2;
+    flex-grow: 1;
+    color: #7289DA;
+    font-size: 30px;
 }
 
-.table{
-    border: 1px solid black;
-    background-color: rgb(255, 0, 0);
-    height: 450px;
-    flex-grow: 8;
+.ul{
+    flex-grow: 80;
+    display: flex;
+    line-height: 30px;
+}
+
+ul{
+    color: #7289DA;
+    list-style-type: none;
+}
+
+li{
+    color: white;
+    width: 150px;
+}
+
+.li{
+    margin: 0 6% 0 2%;
+}
+
+hr{
+    width: 80%;
+    margin: 0 10% 0 10%;
 }
 
 .container4{
     display: flex;
     justify-content: space-between;
-    padding: 2%;
-}
-
-.logo3{
-    border: 1px solid black;
-    background-color: rgb(255, 0, 0);
-    height: 50px;
-    width: 100px;
-}
-
-.button3{
-    border: 1px solid black;
-    background-color: rgb(255, 0, 0);
-    height: 50px;
-    width: 100px;
+    padding: 1% 10% 0 10%;
 }
