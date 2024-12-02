@@ -16,6 +16,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 1%;
 }
 
 .logo{
@@ -41,10 +42,25 @@ header{
 }
 
 .title{
-    height: 70%;
     width: 50%;
     border: 1px solid black;
     margin: 5% 25% 5% 25%;
+    text-align: center;
+    color: white;
+    padding: 2% 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.Mac{
+    background-color: white;
+}
+
+.Discord{
+    color: white;
+    background-color: #23272A;
 }
 
 main{
