@@ -18,10 +18,6 @@ header{
     padding: 1%;
 }
 
-.logo{
-    padding-top: 10px;
-}
-
 .test{
     width: 500px;
     display: flex;
@@ -37,7 +33,13 @@ header{
 
 .button{
     width: 100px;
-    padding: 1%;
+}
+
+.accedi{
+    background-color: white;
+    border: 0;
+    border-radius: 40px;
+    padding: 10%;
 }
 
 .title{
@@ -54,11 +56,19 @@ h1{
 
 .Mac{
     background-color: white;
+    border: 0;
+    border-radius: 40px;
+    padding: 2%;
+    font-size: medium;
 }
 
 .Discord{
     color: white;
     background-color: #23272A;
+    border: 0;
+    border-radius: 40px;
+    padding: 2%;
+    font-size: medium;
 }
 
 main{
@@ -115,6 +125,10 @@ h2{
     text-align: center;
 }
 
+h4{
+    font-size: 32px;
+}
+
 .four{
     background-color: #F6F6F6;
 }
@@ -125,6 +139,13 @@ h3{
 
 .buttonMac{
     margin: 3% 0 3% 0;
+    color: white;
+    background-color: #7289DA;
+    border: 0;
+    border-radius: 40px;
+    padding: 1%;
+    font-size: medium;
+
 }
 
 footer{
@@ -141,12 +162,21 @@ footer{
 }
 
 .logo2{
-    border: 1px solid black;
-    height: 300px;
     margin-right: 10px;
     flex-grow: 1;
     color: #7289DA;
     font-size: 30px;
+}
+
+.ita{
+    height: 15px;
+    width: 20px;
+}
+
+.lingua{
+    background-color: #23272A;
+    border: 0;
+    color: white;
 }
 
 .ul{
@@ -178,4 +208,12 @@ hr{
     display: flex;
     justify-content: space-between;
     padding: 1% 10% 0 10%;
+}
+
+.register{
+    padding: 15%;
+    color: white;
+    background-color: #7289DA;
+    border: 0;
+    border-radius: 40px;
 }
